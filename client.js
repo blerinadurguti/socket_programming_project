@@ -15,11 +15,11 @@ const client=net.createConnection(options)
 
 client.on('connect', ()=>{
     console.log('U lidh me sukses!')
-    client.write('client:Pershendetje nga Blerina Beka\n');
-    client.write('client:Pershendetje nga Blerina Durguti\n');
-    client.write('client:Pershendetje nga Blerta Ujkani\n');
-    client.write('client:Pershendetje nga Blinera Kadriu\n');
-    client.write('client:Pershendetje nga te gjith\n');
+    client.write('Pershendetje nga Blerina Beka\n');
+    client.write('Pershendetje nga Blerina Durguti\n');
+    client.write('Pershendetje nga Blerta Ujkani\n');
+    client.write('Pershendetje nga Blinera Kadriu\n');
+    client.write('Pershendetje nga te gjithe\n');
     sendLine()
 })
 
