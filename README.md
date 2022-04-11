@@ -1,5 +1,5 @@
 # Detyra e dyte ne lenden: Rrjeta Kompjuterike
-Komunikimi Client-Server duke perdorur TCP protokolet, kryesisht ne node.js
+Komunikimi Client-Server duke perdorur TCP protokolet, kryesisht ne node.js. 
 Ne kete projekt eshte bere lidhja e klientit me server permes programimit me sockets.
 
 Projekti eshte punuar nga:
