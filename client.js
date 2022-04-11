@@ -11,3 +11,14 @@ const admin="Grupi";
 const password="11";
 
 
+const client=net.createConnection(options)
+
+client.on('connect', ()=>{
+    console.log('U lidh me sukses!')
+    sendLine()
+})
+
+client.on('data', (data)=>{
+    console.log("Serveri pranoi mesazhin " + data)
+    sendLine()
+})
