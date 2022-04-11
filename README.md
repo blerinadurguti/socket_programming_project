@@ -1,4 +1,3 @@
-# Rrjetat Kompjuterike
 ## Universiteti i Prishtinës - Fakulteti i Inxhinierisë Elektrike dhe Kompjuterike
 # Detyra e dyte ne lenden: Rrjeta Kompjuterike
 <pre>Komunikimi Client-Server duke perdorur TCP protokolet, kryesisht ne node.js.</pre> 
