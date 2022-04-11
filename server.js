@@ -11,3 +11,14 @@ var remoteAddress=socket.remoteAddress + ":"+socket.remotePort;
         console.log("\nMesazhi u pranua nga %s: %s", remoteAddress, data)
         socket.write('Pershendetje ${data} ky eshte file i juaj ${"C:/Users/PC/Documents/GitHub/socket_programming_project/html/landingPage.html"}')
     })
+socket.on('close',()=>{
+        console.log("Komunikimi perfundoi")
+    })
+
+    socket.on('error', (err)=>{
+        console.log(err.message)
+    })
+})
+server.listen(3000, ()=>{
+    console.log("Serveri po degjon ne adresen: ", server.address().port)
+})
